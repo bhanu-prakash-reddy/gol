@@ -12,7 +12,6 @@ stages {
 bat 'mvn clean install'
         }
       }
-    }
      stage('deploy') {
       // define step to run
       steps {
